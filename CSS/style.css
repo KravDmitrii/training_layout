@@ -1323,7 +1323,7 @@ img {
         margin-bottom: 0;
     }
     .events_box__slide:not(:last-child) {
-        padding: 0px 0px 10px 0px;
+        padding: 0px 11px 10px 11px;
     }
     .events_box__slide:nth-child(3) {
         padding-top: 2px;

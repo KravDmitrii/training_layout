@@ -478,7 +478,6 @@ img {
 
 .events_box {
     display: flex;
-    padding: 0;
     justify-content: space-between;
 }
 
@@ -737,7 +736,7 @@ img {
     border-radius: 100px;
     padding: 12px 36px;
     cursor: pointer;
-    transition: background-color .3s ease-in-out, collor .3s ease-in-out;
+    transition: background-color .5s ease-in-out, collor .3s ease-in-out;
 }
 
 .contacts_btn:hover {
@@ -796,6 +795,16 @@ img {
     display: flex;
 }
 
+.contacts_social__ikon__whatsapp svg,
+.contacts_social__ikon__telegram svg {
+    transition: opacity .3s ease-in-out;
+}
+
+.contacts_social__ikon__whatsapp svg,
+.contacts_social__ikon__telegram svg {
+    transition: border-color .3s ease-in-out;
+}
+
 .contacts_social__ikon__whatsapp svg:hover,
 .contacts_social__ikon__telegram svg:hover {
     opacity: 0.5;
@@ -835,7 +844,7 @@ img {
 
 /* Media width 1488px */
 
-@media (max-width: 1872px) {
+@media (max-width: 1870px) {
     .container {
         max-width: 1440px;
         padding: 0 50px 0 49px;

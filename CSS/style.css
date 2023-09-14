@@ -185,7 +185,7 @@ img {
     z-index: 1;
     pointer-events: none;
     padding: 146px 0;
-    background-image: url(IMG\section-hero\1.jpg);
+    background-image: url(..\IMG\section-hero\1.jpg);
 }
 
 .hero_item {

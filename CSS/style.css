@@ -1331,8 +1331,8 @@ img {
     .events_box__slide {
         padding: 0 11px;
     }
-    .events_box_container {
-        padding: 0 16px 49px 20px;
+    .events_box__slide_list {
+        padding: 0px 23px 49px 23px;
     }
     .events_box__info {
         margin-top: 17px;

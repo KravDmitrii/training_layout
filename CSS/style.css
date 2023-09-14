@@ -268,7 +268,7 @@ img {
 /* Section-gallery */
 
 .gallery_background {
-    background-image: url(IMG\section-gallery\gallery-background.jpg);
+    background-image: url(../IMG/section-gallery/gallery-background.jpg);
     width: 100%;
     height: 100%;
     background-size: 100%;

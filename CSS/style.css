@@ -138,6 +138,10 @@ img {
     color: #7943A4;
 }
 
+.header_nav__list_media {
+    display: none;
+}
+
 .header_bottom__search-media {
     display: none;
 }
@@ -1182,14 +1186,28 @@ img {
     .header_logo__media {
         max-width: 33%;
     }
-    .header_nav__item:not(:last-child) {
-        margin-right: 33px;
+    .header_nav__list {
+        display: none;
     }
-    .header_nav__link {
+    .header_nav__list_media {
+        display: flex;
+        justify-content: space-between;
+    }
+    .header_nav__item_media:not(:last-child) {
+        margin-right: 70px;
+    }
+    .header_nav__link_media {
         font-weight: 700;
         font-size: 12px;
         line-height: 24px;
+        color: var(--text-color);
         cursor: pointer;
+    }
+    .header_nav__link_media:hover {
+        color: #C283F3;
+    }
+    .header_nav__link_media:active {
+        color: #7943A4;
     }
     .header_bottom__search-media {
         max-width: 6%;
@@ -1441,6 +1459,9 @@ img {
         font-size: 12px;
         line-height: 24px;
         cursor: pointer;
+    }
+    .header_nav__link_media {
+        display: none;
     }
     .hero_item {
         text-align: center;

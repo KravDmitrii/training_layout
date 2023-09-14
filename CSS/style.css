@@ -1202,7 +1202,7 @@ img {
         padding-top: 12px;
     }
     .header_nav__item_media:not(:last-child) {
-        margin-right: 64px;
+        margin-right: 68px;
     }
     .header_nav__link_media {
         font-weight: 700;

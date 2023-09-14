@@ -190,6 +190,7 @@ img {
     pointer-events: none;
     padding: 146px 0;
     background-image: url(../IMG/section-hero/1.jpg);
+    background-size: cover;
 }
 
 .hero_item {
@@ -478,18 +479,17 @@ img {
 
 .events_box {
     display: flex;
-    padding: 0 0 0 12px;
+    padding: 0;
+    justify-content: space-between;
 }
 
 .events_box__slide {
     max-width: 500px;
     margin-top: 16px;
+    padding: 0;
     display: flex;
     flex-direction: column;
-}
-
-.events_box__slide:not(:last-child) {
-    margin-right: 50px;
+    justify-content: space-between;
 }
 
 .events_box__img {
@@ -499,7 +499,7 @@ img {
     background-size: contain;
 }
 
-.events_box_container {
+.events_box__slide_list {
     padding: 0 50px 42px 50px;
     border: 1px solid #CACACA;
     display: flex;
@@ -542,11 +542,14 @@ img {
 }
 
 .events_box__btn {
+    padding: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
     margin-top: 64px;
+    border: none;
     border-bottom: 1px solid var(--collor);
+    background-color: var(--text-color);
     color: var(--collor);
     cursor: pointer;
     transition: color .3s;
@@ -731,6 +734,7 @@ img {
     line-height: normal;
     color: var(--collor);
     border: 2px solid var(--collor);
+    background-color: var(--text-color);
     border-radius: 100px;
     padding: 12px 36px;
     cursor: pointer;
@@ -852,9 +856,6 @@ img {
     }
     .events_box__slide {
         max-width: 396px;
-    }
-    .events_box__slide:not(:last-child) {
-        margin-right: 30px;
     }
     .contacts_container {
         display: inline-block;
@@ -998,16 +999,12 @@ img {
     .events_box__slide {
         max-width: 290px;
     }
-    .events_box__slide:not(:last-child) {
-        margin-right: 27px;
-    }
-    .events_box_container {
-        padding: 0 34px 49px 34px;
-        align-items: unset;
-    }
     .events_box__img {
         min-height: 200px;
         background-size: cover;
+    }
+    .events_box__slide_list {
+        padding: 0px 34px 49px 34px;
     }
     .events_box__info {
         text-align: end;
@@ -1016,13 +1013,14 @@ img {
         max-width: 100%;
         margin-top: 4px;
         line-height: 34px;
+        font-size: 22px;
     }
     .events_box__text {
         margin-top: 5px;
+        font-size: 14px;
     }
     .events_box__btn {
         margin-top: 22px;
-        max-width: 40%;
     }
     /* projects */
     .projects_info {
@@ -1107,8 +1105,7 @@ img {
         max-width: 668px;
     }
     .events_box__slide:not(:last-child) {
-        margin-top: 21px;
-        margin-right: 0;
+        padding-top: 21px;
     }
     .events_box__slide:nth-child(2) {
         padding-top: 9px;
@@ -1316,7 +1313,7 @@ img {
         margin-bottom: 0;
     }
     .events_box__slide:not(:last-child) {
-        margin: 0px 0px 10px 0px;
+        padding: 0px 0px 10px 0px;
     }
     .events_box__slide:nth-child(3) {
         padding-top: 2px;

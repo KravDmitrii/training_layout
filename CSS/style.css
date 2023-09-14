@@ -1451,7 +1451,7 @@ img {
         padding-right: 15px;
     }
     /* Header */
-    .header_nav__item:not(:last-child) {
+    .header_nav__item_media:not(:last-child) {
         margin-right: 33px;
     }
     .header_nav__link {
@@ -1459,9 +1459,6 @@ img {
         font-size: 12px;
         line-height: 24px;
         cursor: pointer;
-    }
-    .header_nav__link_media {
-        display: none;
     }
     .hero_item {
         text-align: center;

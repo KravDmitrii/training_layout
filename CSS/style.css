@@ -1183,18 +1183,18 @@ img {
     .header_container {
         padding: 13px 0 8px 0;
     }
-    .header_logo__media {
-        max-width: 33%;
-    }
     .header_nav__list {
         display: none;
+    }
+    .header_logo__media {
+        max-width: 33%;
     }
     .header_nav__list_media {
         display: flex;
         justify-content: space-between;
     }
     .header_nav__item_media:not(:last-child) {
-        margin-right: 70px;
+        margin-right: 64px;
     }
     .header_nav__link_media {
         font-weight: 700;

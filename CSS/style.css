@@ -1192,6 +1192,7 @@ img {
     .header_nav__list_media {
         display: flex;
         justify-content: space-between;
+        padding-top: 12px;
     }
     .header_nav__item_media:not(:last-child) {
         margin-right: 64px;

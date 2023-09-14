@@ -61,9 +61,8 @@ img {
 }
 
 .container {
-    max-width: 1920px;
-    padding-left: 160px;
-    padding-right: 143px;
+    max-width: 1600px;
+    padding: 0;
 }
 
 .section_logo {
@@ -839,8 +838,7 @@ img {
 @media (max-width: 1872px) {
     .container {
         max-width: 1440px;
-        padding-left: 65px;
-        padding-right: 65px;
+        padding: 0 50px 0 49px;
     }
     .header_nav__item:not(:last-child) {
         margin-right: 85px;
@@ -853,6 +851,9 @@ img {
     }
     .gallery_item__cart__img:not(:last-child) {
         margin-right: 30px;
+    }
+    .catalog-cart_text {
+        max-width: 95%;
     }
     .events_box__slide {
         max-width: 396px;

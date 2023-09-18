@@ -1071,7 +1071,7 @@ img {
 
 /* media max-width: 768px */
 
-@media (max-width: 768px) {
+@media (max-width: 1020px) {
     .container {
         max-width: 768px;
         padding-left: 50px;
@@ -1177,7 +1177,7 @@ img {
 
 /* media max-width: 425px */
 
-@media (max-width: 430px) {
+@media (max-width: 760px) {
     .container {
         max-width: 430px;
         padding-left: 15px;
@@ -1452,7 +1452,7 @@ img {
 
 /* media max-width: 320px */
 
-@media (max-width: 320px) {
+@media (max-width: 430px) {
     .container {
         max-width: 320px;
         padding-left: 15px;

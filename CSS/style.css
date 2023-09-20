@@ -220,27 +220,26 @@ img {
     pointer-events: auto;
     border-radius: 100px;
     background-color: var(--collor);
-    border: none;
+    border: 3px solid transparent;
     color: var(--text-color);
     cursor: pointer;
     font-weight: 700;
     font-size: 19px;
     line-height: 25px;
-    transition: outline .2s;
+    transition: border-color .3s ease-in-out, background-color .3s ease-in-out;
 }
 
 .hero_item_btn:active {
     background-color: #7943A4;
-    outline: 3px solid #D1A9F0;
+    border-color: #D1A9F0;
 }
 
 .hero_item_btn:hover {
-    outline: 3px solid #D1A9F0;
+    border-color: #D1A9F0;
 }
 
 .hero_item_btn:focus-visible {
-    outline: 2px solid #C283F3;
-    outline-offset: 2px;
+    border-color: #C283F3;
 }
 
 
@@ -333,8 +332,29 @@ img {
     display: flex;
     align-items: center;
     position: relative;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 32px;
+    color: var(--text-color);
     cursor: pointer;
-    transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out, color .3s ease-in-out;
+}
+
+.checkbox span:active {
+    color: #C283F3;
+}
+
+.checkbox span:hover {
+    color: #C283F3;
+}
+
+.checkbox span:focus {
+    color: #C283F3;
+}
+
+.checkbox span:focus-visible {
+    color: #C283F3;
+    outline: none;
 }
 
 .checkbox input {
@@ -364,7 +384,7 @@ img {
     margin-top: -2px;
     width: 14px;
     height: 14px;
-    background-image: url(/IMG/SVG/checkbox.svg);
+    background-image: url(../IMG/SVG/checkbox.svg);
     background-repeat: no-repeat;
 }
 
@@ -379,24 +399,6 @@ img {
 
 .checkbox input:checked+span::before {
     border: #C283F3 1px solid;
-}
-
-.gallery_chekbox__text {
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 32px;
-    color: var(--text-color);
-    cursor: pointer;
-    transition: color .3s;
-}
-
-.gallery_chekbox__text:active {
-    color: #C283F3;
-}
-
-.gallery_chekbox__text:focus-visible {
-    color: #C283F3;
-    outline: none;
 }
 
 
@@ -550,7 +552,7 @@ img {
     background-color: var(--text-color);
     color: var(--collor);
     cursor: pointer;
-    transition: color .3s;
+    transition: color .3s ease-in-out;
 }
 
 .events_box__btn:hover {
@@ -706,6 +708,7 @@ img {
     color: #999;
     padding: 9px 0px 9px 24px;
     z-index: 100;
+    transition: all .3s ease-in-out;
 }
 
 .contacts_form__box__input:hover {
@@ -736,7 +739,7 @@ img {
     border-radius: 100px;
     padding: 12px 36px;
     cursor: pointer;
-    transition: background-color .5s ease-in-out, collor .3s ease-in-out;
+    transition: background-color .3s ease-in-out, collor .5s ease-in-out;
 }
 
 .contacts_btn:hover {
@@ -797,12 +800,7 @@ img {
 
 .contacts_social__ikon__whatsapp svg,
 .contacts_social__ikon__telegram svg {
-    transition: opacity .3s ease-in-out;
-}
-
-.contacts_social__ikon__whatsapp svg,
-.contacts_social__ikon__telegram svg {
-    transition: border-color .3s ease-in-out;
+    transition: border-color .3s ease-in-out, opacity .3s ease-in-out;
 }
 
 .contacts_social__ikon__whatsapp svg:hover,
